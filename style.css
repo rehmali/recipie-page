@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family:outfit ;
+    font-family:young-serif ;
     src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
 }
 
@@ -21,11 +21,10 @@ body{
 }
 img {
     display: block;
-    width:300px;
-    padding: 10px;
-    border-radius:15px;
-    
-    margin:0px auto;
+    width:400px;
+    padding-top: 10px;
+    border-radius:20px;
+    padding-left:20px;
 }
 .container {
     width:500px;
@@ -37,10 +36,13 @@ img {
 h1{
     padding-left: 20px;
     padding-bottom:10px;
+    font-family: outfit;
 }
 .text {
     font-size: 13px;
     padding-left:20px;
+    padding-bottom: 10px;
+    color:hsl(30, 10%, 34%);
 }
 .heading{
     /*  */
@@ -49,7 +51,10 @@ h1{
 }
 .rose-text {
     color:hsl(332, 51%, 32%);
-    padding-left: 20px;
+    padding-left: 50px;
+}
+.prep-text {
+    padding-left:50px;
 }
 ol {
     list-style-position: inside;
@@ -64,4 +69,23 @@ ol {
 .pad-bot{
     padding-bottom: 20px;
     padding-top:30px;
+}
+
+table,tr,td{
+    border-bottom:1px solid hsl(30, 18%, 87%);
+    border-collapse: collapse;
+}
+tr , td {
+    width:400px;
+}
+
+.food {
+    padding-left:50px;
+    padding-bottom: 20px;
+}
+
+.amount {
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
