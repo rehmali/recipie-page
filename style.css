@@ -1,0 +1,67 @@
+
+/* Including Customs Fonts */
+@font-face {
+    font-family:outfit ;
+    src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family:outfit ;
+    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+/* Default Formatting for All element */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(30, 54%, 90%);
+}
+img {
+    display: block;
+    width:300px;
+    padding: 10px;
+    border-radius:15px;
+    
+    margin:0px auto;
+}
+.container {
+    width:500px;
+    background-color:#ffffff;
+    margin:0px auto;
+    margin-top:20px;
+}
+/* Intro Heading */
+h1{
+    padding-left: 20px;
+    padding-bottom:10px;
+}
+.text {
+    font-size: 13px;
+    padding-left:20px;
+}
+.heading{
+    /*  */
+    color: hsl(14, 45%, 36%);
+    padding-left:20px;
+}
+.rose-text {
+    color:hsl(332, 51%, 32%);
+    padding-left: 20px;
+}
+ol {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+.instructions {
+    list-style-type: decimal;
+}
+
+/* This creates a padding on bottom of headings */
+
+.pad-bot{
+    padding-bottom: 20px;
+    padding-top:30px;
+}
