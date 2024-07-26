@@ -19,43 +19,50 @@
 body{
     background-color:hsl(30, 54%, 90%);
 }
-img {
+/* Setting Omellete Image */
+.image {
     display: block;
     width:400px;
     padding-top: 10px;
     border-radius:20px;
-    padding-left:20px;
 }
+/* This Section contains all data */
 .container {
     width:500px;
     background-color:#ffffff;
-    margin:0px auto;
-    margin-top:20px;
+    margin:30px auto;
+    border-radius: 15px;
+    padding-left: 50px;
 }
-/* Intro Heading */
-h1{
-    padding-left: 20px;
-    padding-bottom:10px;
-    font-family: outfit;
-}
+
+/* Formatting All text */
 .text {
     font-size: 13px;
-    padding-left:20px;
     padding-bottom: 10px;
     color:hsl(30, 10%, 34%);
+    margin-right:20px;
 }
+
+/* Formatting for All Recipe Headings */
 .heading{
-    /*  */
+    
     color: hsl(14, 45%, 36%);
+}
+/* Intro Heading */
+.main-heading{
+    font-family: outfit;
+    color:#000000;
+}
+/* Styling Preparation Time of Recipe */
+.preparations {
+    background-color:hsl(30, 54%, 96%);
+    margin-right:40px;
     padding-left:20px;
 }
 .rose-text {
     color:hsl(332, 51%, 32%);
-    padding-left: 50px;
 }
-.prep-text {
-    padding-left:50px;
-}
+/* Formatting Orderd Lists , see list-style-position:inside which is necessary to keep styles inside div */
 ol {
     list-style-position: inside;
     list-style-type: disc;
@@ -71,6 +78,7 @@ ol {
     padding-top:30px;
 }
 
+/* Formatting Last Section of Tables */
 table,tr,td{
     border-bottom:1px solid hsl(30, 18%, 87%);
     border-collapse: collapse;
@@ -78,14 +86,16 @@ table,tr,td{
 tr , td {
     width:400px;
 }
-
-.food {
-    padding-left:50px;
-    padding-bottom: 20px;
+td {
+    padding-top: 10px;
 }
 
+.food,.amount {
+    /* padding-left:50px; */
+    padding-bottom: 20px;
+}
+/* Formatting Amount Separate as it has different color */
 .amount {
     color: hsl(14, 45%, 36%);
     font-weight: bolder;
-    padding-bottom: 20px;
 }
